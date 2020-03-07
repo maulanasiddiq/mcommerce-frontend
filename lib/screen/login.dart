@@ -33,7 +33,7 @@ class _LoginState extends State<Login> {
               child: TextField(
                   decoration: InputDecoration(
                 border: OutlineInputBorder(),
-                labelText: 'Username',
+                labelText: 'Email',
               )),
             ),
             SizedBox(
