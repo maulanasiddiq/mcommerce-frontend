@@ -49,27 +49,24 @@ class _RegisterState extends State<Register> {
                     labelText: 'Password',
                     suffixIcon: Icon(Icons.remove_red_eye)
                   )),
-              Padding(
-                padding: EdgeInsets.all(20),
-                child: SizedBox(
-                  width: double.infinity,
-                  child: ButtonTheme(
-                    height: 50,
-                    child: RaisedButton(
-                      color: Colors.teal,
-                      onPressed: () {
-                        // Navigator.push(context,
-                        //     MaterialPageRoute(builder: (context) => Menu()));
-                      },
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10)),
-                      child: Text(
-                        "CEK NIK",
-                        style: TextStyle(
-                            fontFamily: ("Opensans"),
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold),
-                      ),
+              SizedBox(
+                width: double.infinity,
+                child: ButtonTheme(
+                  height: 50,
+                  child: RaisedButton(
+                    color: Colors.teal,
+                    onPressed: () {
+                      // Navigator.push(context,
+                      //     MaterialPageRoute(builder: (context) => Menu()));
+                    },
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10)),
+                    child: Text(
+                      "DAFTAR",
+                      style: TextStyle(
+                          fontFamily: ("Opensans"),
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold),
                     ),
                   ),
                 ),
