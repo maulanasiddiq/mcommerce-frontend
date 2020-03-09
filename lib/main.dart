@@ -5,7 +5,7 @@ void main() => runApp(MaterialApp(
   home: Intro(),
   debugShowCheckedModeBanner: false,
   theme: ThemeData(
-    primaryColor: Colors.green,
-    accentColor: Colors.lightGreen,
+    primaryColor: Colors.lightGreen,
+    accentColor: Colors.green,
   ),
 ));

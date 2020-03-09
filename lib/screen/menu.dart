@@ -24,7 +24,7 @@ class _MenuState extends State<Menu> {
           ],
         ),
         bottomNavigationBar: TabBar(
-          labelColor: Colors.teal[400],
+          labelColor: Colors.green,
           unselectedLabelColor: Colors.grey,
           tabs: <Widget>[
             Container(
@@ -62,7 +62,7 @@ class _MenuState extends State<Menu> {
                 children: <Widget>[
                   Icon(Icons.notifications),
                   Text(
-                    "Pemberitahuan",
+                    "Notifikasi",
                     textAlign: TextAlign.center,
                     style: TextStyle(fontSize: 10),
                   )
