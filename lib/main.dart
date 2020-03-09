@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:mcommerce/screen/login.dart';
+import 'package:mcommerce/screen/intro.dart';
 
 void main() => runApp(MaterialApp(
-  home: Login(),
+  home: Intro(),
   debugShowCheckedModeBanner: false,
   theme: ThemeData(
-    primaryColor: Colors.teal[400],
-    accentColor: Colors.tealAccent,
+    primaryColor: Colors.green,
+    accentColor: Colors.lightGreen,
   ),
 ));
