@@ -127,15 +127,10 @@ class _HistoryState extends State<History> with SingleTickerProviderStateMixin {
                                                 height: 5,
                                               ),
                                               Row(
+                                                mainAxisAlignment: MainAxisAlignment.spaceAround,
                                                 children: <Widget>[
-                                                  Column(children: <Widget>[
-                                                    Text("x 100kg")
-                                                  ]),
-                                                  Column(
-                                                    crossAxisAlignment: CrossAxisAlignment.end,
-                                                    children: <Widget>[
-                                                    Text("Rp20.000")
-                                                  ]),
+                                                  Text("x 100kg"),
+                                                  Text("Rp20.000"),
                                                 ],
                                               ),
                                             ]),
@@ -167,13 +162,16 @@ class _HistoryState extends State<History> with SingleTickerProviderStateMixin {
                                             Text(
                                               "Maulana",
                                               style: TextStyle(
-                                                fontSize: 10,
+                                                fontSize: 12,
                                               ),
                                             ),
                                           ],
                                         ),
                                         Row(children: <Widget>[
                                           Text("Total Pesanan:"),
+                                          SizedBox(
+                                            width: 5,
+                                          ),
                                           Text(
                                             "Rp2.000.000",
                                             style: TextStyle(

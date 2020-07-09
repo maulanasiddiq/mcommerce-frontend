@@ -14,10 +14,17 @@ class _NotifState extends State<Notif> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        flexibleSpace: Container(
+          decoration: BoxDecoration(
+              gradient:
+                  LinearGradient(colors: [Colors.green, Colors.lightGreen])),
+        ),
         automaticallyImplyLeading: false,
-        title: Text("Notification"),
+        title: Text(
+          "Notifikasi",
+          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+        ),
       ),
-      
     );
   }
 }
