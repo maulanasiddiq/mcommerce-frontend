@@ -4,6 +4,7 @@ import 'package:mcommerce/components/rounded_button.dart';
 import 'package:mcommerce/screen/login/components/rounded_input_field.dart';
 import 'package:mcommerce/screen/login/components/rounded_password_field.dart';
 import 'package:mcommerce/screen/login/components/sudah_punya_akun_cek.dart';
+import 'package:mcommerce/screen/register/register.dart';
 
 class Login extends StatelessWidget {
   @override
@@ -43,7 +44,11 @@ class Login extends StatelessWidget {
                 press: () {},
               ),
               SudahPunyaAkunCek(
-                press: () {},
+                press: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context) {
+                    return Register();
+                  }));
+                },
               )
             ],
           ),

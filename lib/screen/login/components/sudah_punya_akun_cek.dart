@@ -27,7 +27,7 @@ class SudahPunyaAkunCek extends StatelessWidget {
             login ? "Daftar Sekarang" : "Sign In",
             style: TextStyle(color: Colors.green, fontWeight: FontWeight.bold),
           ),
-        )
+        ),
       ],
     );
   }
