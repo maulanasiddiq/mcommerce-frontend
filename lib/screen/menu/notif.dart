@@ -25,6 +25,14 @@ class _NotifState extends State<Notif> {
           style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
         ),
       ),
+      body: Material(
+        borderRadius: BorderRadius.circular(5),
+        child: Column(
+          children: <Widget>[
+            Text("Halo"),
+          ],
+        ),
+      ),
     );
   }
 }

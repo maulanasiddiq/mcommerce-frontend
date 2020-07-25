@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mcommerce/screen/menu/history.dart';
-import 'package:mcommerce/screen/menu/home.dart';
+import 'package:mcommerce/screen/menu/home/home.dart';
 import 'package:mcommerce/screen/menu/notif.dart';
 import 'package:mcommerce/screen/menu/profile.dart';
 
@@ -13,12 +12,11 @@ class _MenuState extends State<Menu> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 4,
+      length: 3,
       child: Scaffold(
         body: TabBarView(
           children: <Widget>[
             Home(),
-            History(),
             Notif(),
             Profile(),
           ],
@@ -35,20 +33,6 @@ class _MenuState extends State<Menu> {
                   Icon(Icons.home),
                   Text(
                     "Beranda",
-                    textAlign: TextAlign.center,
-                    style: TextStyle(fontSize: 10),
-                  )
-                ],
-              ),
-            ),
-            Container(
-              margin: EdgeInsets.only(top: 10, bottom: 10),
-              child: ListView(
-                shrinkWrap: true,
-                children: <Widget>[
-                  Icon(Icons.history),
-                  Text(
-                    "Riwayat",
                     textAlign: TextAlign.center,
                     style: TextStyle(fontSize: 10),
                   )
